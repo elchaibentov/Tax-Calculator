@@ -21,4 +21,6 @@ For every additional shekel 50%.
 
 In the Taxcalculator.js has the ability to easily change the tax brackets
 
+Link to the calculator -https://cdn.rawgit.com/elchaibentov/Tax-Calculator/aeb47bf8/TaxCalculator.html
+
 Thanks.
