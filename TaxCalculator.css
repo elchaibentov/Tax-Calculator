@@ -1,0 +1,87 @@
+/*Elchai Bentov*/
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2 auto;
+    width: 500px;
+	background-color: #E0E0E0;
+	
+  
+}
+/*-----------------------------------------------------------------------------------*/
+.section {
+    padding: 1em 0.6em;
+	position: relative;
+	border: 3px solid black;
+	position: relative;
+	
+	  
+}
+/*-----------------------------------------------------------------------------------*/
+#header{ 
+	background-color: #0066CC;
+	 height:50px;
+	 position:relative;
+}
+/*-----------------------------------------------------------------------------------*/
+#header-content {
+	color:white; 
+	position:absolute;
+	font-size: 30px;
+	font-weight: bold;
+	bottom: 2px;
+	left: 2px;
+}
+/*-----------------------------------------------------------------------------------*/
+#header-IMG {
+	position:absolute;
+	bottom: 6px;
+	right: 15px;
+}
+/*-----------------------------------------------------------------------------------*/
+label {
+    float: left;
+    width:8em;
+    text-align: left;
+	position: relative;
+}
+/*-----------------------------------------------------------------------------------*/
+input {
+
+	margin-left: 1em;
+    margin-bottom: .4em;
+	position:relative;
+	
+}
+/*-----------------------------------------------------------------------------------*/
+#total{
+	font-weight: bold;
+	left: 100px;
+	color:blue; 
+	visibility: hidden;
+	
+}
+/*-----------------------------------------------------------------------------------*/
+#radiobtn {
+	cursor:pointer;
+}
+/*-----------------------------------------------------------------------------------*/
+button { 
+	position:absolute;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 2px 1px;
+    font-weight: bolder;
+	-webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+	cursor:pointer;
+}
+/*-----------------------------------------------------------------------------------*/
+.blue{
+	background: rgb(122,188,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+}
