@@ -1,0 +1,72 @@
+<!doctype html5>
+<html>
+    <head>
+        <title>Tax calculator</title>
+        <script type = "text/javascript" src = "TaxCalculator.js"></script>     
+        <link rel = "stylesheet" href = "TaxCalculator.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </head>
+    <body onload="loadPage()">
+	 <div id="header" > 
+	<div id="header-content">Tax calculator</div>  
+	<div id = "header-IMG">
+	<img src="calc.jpg" alt="wine" width="70" height="38">
+	</div>
+	</div>
+	<div class ="section">
+		<label for = "BS">Base Salary</label>
+        <input id = "BS" /> 
+		<input type="radio"  name="radio" id="radioBtn" onclick="test(this)">
+		 For 12 Months
+		<br/>
+		<div  id = rmv>
+		<label for = "1M" id="ghg">January</label>
+        <input onblur="calculate"  name="M" id = "1M"  /> 
+		<br/>
+		<label for = "2M">February</label>
+        <input onblur="calculate"  name="M" id = "2M" /> 
+		<br/>
+		<label for = "3M">March</label>
+        <input onblur="calculate"  name="M" id = "3M" /> 
+		<br/>
+		<label for = "4M">April</label>
+        <input onblur="calculate"  name="M" id = "4M" /> 
+		<br/>
+		<label for = "5M">May </label>
+        <input onblur="calculate"  name="M" id = "5M" /> 
+		<br/>
+		<label for = "6M">June </label>
+        <input onblur="calculate"  name="M" id = "6M" /> 
+		<br/>
+		<label for = "7M">July</label>
+        <input onblur="calculate"  name="M" id = "7M" /> 
+		<br/>
+		<label for = "8M">August</label>
+        <input onblur="calculate"  name="M" id = "8M" /> 
+		<br/>
+		<label for = "9M">September </label>
+        <input onblur="calculate"  name="M" id = "9M" /> 
+		<br/>
+		<label for = "10M">October </label>
+        <input onblur="calculate"  name="M" id = "10M" /> 
+		<br/>
+		<label for = "11M">November</label>
+        <input onblur="calculate"  name="M" id = "11M" /> 
+		<br/>
+		<label for = "12M">December </label>
+        <input onblur="calculate"  name="M" id = "12M" /> 
+        <br/>
+		<br/>		
+		</div>
+		<label for = "BP">Bonus Point</label>
+        <input id = "BP" /> 
+		  <br/>
+		<button id = "cmdCalc" name="clc" id="cal" class="blue" onclick="calculate(this)">Calculate</button>
+        <br/>
+		<br/>
+		<div id = "total" >
+		Total Tax is :
+		</div>
+		
+    </body>
+</html>
